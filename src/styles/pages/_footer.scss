@@ -1,0 +1,11 @@
+.footer {
+  border-top: 1px solid $white;
+  box-shadow: 0px 0px 5px $white;
+  padding: 15px;
+  &__text {
+    text-align: center;
+    &--light {
+      text-shadow: 0px 0px 15px $white;
+    }
+  }
+}

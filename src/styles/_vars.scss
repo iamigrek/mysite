@@ -1,0 +1,37 @@
+//COLORS
+$white: #fff;
+$black: #000;
+$main-bg: rgba(26, 29, 45);
+$title-bg: rgba(122, 122, 122, 0.05);
+$gray: rgba(108, 122, 137, 1);
+$light: rgba(255, 255, 255, 0.15);
+$gradient: rgba(26, 29, 45, 1);
+$text-shadow: rgba(17, 17, 19, 1);
+$transparent: transparent;
+
+//FONTS
+$f-montserrat: 'montserrat', sans-serif;
+$f-yanone-kaffeesatz: 'YanoneKaffeesatz', sans-serif;
+
+//FONTS-STYLES
+$fs-main: 500 18px / 20px $f-montserrat;
+$fs-hero-title: 500 calc(24px + 40 * (100vw / 1920)) /
+  calc(30px + 40 * (100vw / 1920)) $f-montserrat;
+$fs-hero-title-big: 700 calc(30px + 60 * (100vw / 1920)) /
+  calc(40px + 60 * (100vw / 1920)) $f-montserrat;
+
+$fs-title-main: 400 calc(32px + 32 * (100vw / 1920)) /
+  calc(40px + 40 * (100vw / 1920)) $f-montserrat;
+
+$fs-bg-title: 700 calc(80px + 320 * (100vw / 1920)) /
+  calc(80px + 320 * (100vw / 1920)) $f-montserrat;
+
+$fs-text-main: 300 calc(12px + 6 * (100vw / 1920)) /
+  calc(20px + 5 * (100vw / 1920)) $f-yanone-kaffeesatz;
+
+$fs-btn-main: 300 calc(12px + 10 * (100vw / 1920)) /
+  calc(20px + 10 * (100vw / 1920)) $f-yanone-kaffeesatz;
+
+$fs-project-title: 300 20px / 22px $f-yanone-kaffeesatz;
+
+$fs-project-text: 300 16px / 20px $f-yanone-kaffeesatz;
